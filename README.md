@@ -51,9 +51,11 @@ docker run -i --rm \
 ```
 
 ## Pipeline Config
-Use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file. The [default config file](https://github.com/FCP-INDI/C-PAC/blob/master/dev/docker_data/default_pipeline.yml) can be used as a start point.
+You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file. The [default config file](https://github.com/FCP-INDI/C-PAC/blob/master/dev/docker_data/default_pipeline.yml) can be used as a start point.
 
 ## For More Details
 User documentation: https://fcp-indi.github.io
+
 C-PAC forum: https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!forum/cpax_forum
+
 C-PAC GitHub: https://github.com/FCP-INDI/C-PAC
