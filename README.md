@@ -38,20 +38,12 @@ docker run -i --rm \
 ```
 
 ## Data Config
-```
-- anat: <anat data>
-  func:
-    run-1:
-      scan: <func data 1>
-    run-2:
-      scan: <func data 2>
-  site_id: site-none
-  subject_id: sub-032167
-  unique_id: ses-001
-```
+[Data config template](./data_config.yml)
 
 ## Pipeline Config
-You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file. The [default config file](https://github.com/FCP-INDI/C-PAC/blob/master/dev/docker_data/default_pipeline.yml) can be used as a start point.
+[Pipeline config template](./default_pipeline.yml)
+
+You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file.
 
 ## For More Details
 User documentation: https://fcp-indi.github.io
