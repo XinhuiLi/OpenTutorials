@@ -17,11 +17,10 @@ docker pull fcpindi/c-pac:latest
 ### Step 3. Run C-PAC
 ```
 docker run -i --rm \
-    -v /Users/You/OpenTutorial/data:/bids_dataset \
-    -v /Users/You/output_folder:/outputs \
-    -v /Users/You/config_folder:/configs \
-    -v /tmp:/scratch \
-    fcpindi/c-pac:latest /bids_dataset /outputs participant
+-v /Users/You/OpenTutorial/data:/bids_dataset \
+-v /Users/You/output_folder:/outputs \
+-v /tmp:/scratch \
+fcpindi/c-pac:latest /bids_dataset /outputs participant
 ```
 
 #### Useful Arguments
