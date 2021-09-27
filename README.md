@@ -1,12 +1,14 @@
-# C-PAC OpenTutorial
+![header][img/CPAC-CMI.png]
 
-This repository holds resources for C-PAC OpenTutorial talk.
+# C-PAC OpenTutorials
+
+Demo resources for C-PAC OpenTutorials talk
 
 ## QuickStart
 
 ### Step 1. Clone Repository
 ```
-git clone https://github.com/XinhuiLi/OpenTutorial.git
+git clone https://github.com/XinhuiLi/OpenTutorials.git
 ```
 
 ### Step 2. Pull C-PAC
@@ -17,10 +19,10 @@ docker pull fcpindi/c-pac:latest
 ### Step 3. Run C-PAC
 ```
 docker run -i --rm \
--v /Users/You/OpenTutorial/data:/bids_dataset \
--v /Users/You/output_folder:/outputs \
+-v /Users/You/OpenTutorials/data:/bids_dataset \
+-v /Users/You/OpenTutorials:/outputs \
 -v /tmp:/scratch \
-fcpindi/c-pac:latest /bids_dataset /outputs participant
+fcpindi/c-pac:latest /bids_dataset /outputs participant --pipeline_file /outputs/pipeline_config.yml
 ```
 
 #### Useful Arguments
@@ -29,7 +31,7 @@ fcpindi/c-pac:latest /bids_dataset /outputs participant
 
 --data_config_file <data_config.yml>
 
---preconfig <anat-only/benchmark-ANTS/benchmark-FNIRT/fmriprep-options/monkey/rodent>
+--preconfig <anat-only/benchmark-ANTS/benchmark-FNIRT/fmriprep-options/monkey/rodent etc.>
 
 --participant_label <participant label>
 
@@ -40,9 +42,11 @@ fcpindi/c-pac:latest /bids_dataset /outputs participant
 [Data config template](./data_config.yml)
 
 ## Pipeline Config
-[Pipeline config template](./default_pipeline.yml)
+[Pipeline config template](./pipeline_config.yml)
 
-You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file.
+You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/#/) to edit your pipeline config file.
+
+![gui][img/CPAC-GUI.jpg]
 
 ## For More Details
 User documentation: https://fcp-indi.github.io
