@@ -1,4 +1,4 @@
-![header][img/CPAC-CMI.png]
+![header](img/CPAC-CMI.png)
 
 # C-PAC OpenTutorials
 
@@ -46,7 +46,7 @@ fcpindi/c-pac:latest /bids_dataset /outputs participant --pipeline_file /outputs
 
 You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/#/) to edit your pipeline config file.
 
-![gui][img/CPAC-GUI.jpg]
+![gui](img/CPAC-GUI.jpg)
 
 ## For More Details
 User documentation: https://fcp-indi.github.io
