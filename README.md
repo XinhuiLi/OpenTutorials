@@ -44,7 +44,7 @@ fcpindi/c-pac:latest /bids_dataset /outputs participant --pipeline_file /outputs
 ## Pipeline Config
 [Pipeline config template](./pipeline_config.yml)
 
-You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/#/) to edit your pipeline config file.
+You can use text editor or [C-PAC GUI](https://fcp-indi.github.io/C-PAC_GUI/versions/nightly/browser/#/) to edit your pipeline config file.
 
 ![gui](img/CPAC-GUI.jpg)
 
