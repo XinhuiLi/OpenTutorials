@@ -22,7 +22,9 @@ docker run -i --rm \
 -v /Users/You/OpenTutorials/data:/bids_dataset \
 -v /Users/You/OpenTutorials:/outputs \
 -v /tmp:/scratch \
-fcpindi/c-pac:latest /bids_dataset /outputs participant --pipeline_file /outputs/pipeline_config.yml
+fcpindi/c-pac:latest /bids_dataset /outputs participant \
+--pipeline_file /outputs/pipeline_config.yml \
+--save_working_dir
 ```
 
 #### Useful Arguments
